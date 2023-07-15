@@ -1,0 +1,50 @@
+:root{
+    --primary-color:#1453ff !important;
+    --primary-1-color:#333697 !important;
+    --secondary-color:#F9F9FF !important;
+    --secondary-1-color:#EFEFFE !important;
+}
+.bg-primary{
+    background-color: var(--primary-color) !important;
+}
+.text-primary{
+    color: var(--primary-color) !important;
+}
+.bg-primary-1{
+    background-color: var(--primary-1-color) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary-color) !important;
+}
+.bg-secondary-1{
+    background-color: var(--secondary-1-color);
+}
+.header-active{
+    background-color: #adadff;
+    transition: all .5s ease;
+}
+/* banner  */
+#banner{
+    background-image:linear-gradient(rgba(0, 0, 255, 0.308),rgba(0, 0, 255, 0.305)),url(images/woman-in-blue-crew-n.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+footer{
+    position: relative;
+}
+.contact{
+    position: absolute;
+    top:-85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width:576px) {
+   header nav{
+    background-color: #adadff !important;
+   }
+   #banner{
+    background-position: center 55px;
+}
+}
